@@ -4,6 +4,9 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);  
+  background(snow1);  
   drawSprites();
+}
+function preload(){
+snow1=loadImage("snow1.jpg")
 }
